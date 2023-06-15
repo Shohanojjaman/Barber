@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font)
+}
+
+:root {
+    --primary-color: #009688;
+    --white: #ffffff;
+    --black: #000000;
+    --primary-font: 'Poppins', sans-serif;
+    --header-font: 'Kaushan Script', cursive;
+}
+
+/* ====
+Fonts
+======= */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* ==========
+Banner Area
+============= */
+section#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+img.logo {
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+.banner-text {
+    text-align: center;
+    padding-top: 140px;
+    color: var(--white)
+}
+
+.banner-text h1 {
+    font-size: 130px;
+    font-family: var(--header-font);
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.banner-text p {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.banner-btn {
+    margin: 70px auto 0;
+}
+
+.banner-btn a {
+    color: var(--white);
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 150px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    border: 1px solid var(--white);
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-btn a:hover {
+    color: var(--primary-color);
+}
+
+.banner-btn a:hover span {
+    width: 100%;
+}
+
+.banner-btn a span {
+    position: absolute;
+    background-color: var(--white);
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+#sideNav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--primary-color);
+    z-index: 9;
+    transition: 0.5s;
+}
+
+#sideNav nav ul li {
+    margin: 40px 20px;
+    list-style: none;
+}
+
+#sideNav nav ul li a {
+    text-decoration: none;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+#menuBtn {
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    border-radius: 3px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#menuBtn img {
+    width: 20px;
+    margin-top: 15px;
+}
