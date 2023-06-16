@@ -365,3 +365,95 @@ Testimonial Area
 .userInfo small {
     color: var(--primary-color);
 }
+
+/* ===========
+Footer Area
+============== */
+#footer {
+    width: 100%;
+    background-color: #ededed;
+    padding: 100px 0 20px;
+    position: relative;
+}
+
+.footerRow {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerLeft,
+.footerRight {
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footerLeft i,
+.footerRight i {
+    font-size: 20px;
+    color: var(--primary-color);
+    margin: 10px;
+}
+
+.footerRight {
+    text-align: right;
+}
+
+.footerRow h1 {
+    margin: 10px 0;
+}
+
+.footerRow p {
+    line-height: 35px;
+}
+
+img.footerImg {
+    max-width: 370px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.social {
+    text-align: center;
+}
+
+.social i {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 3px;
+    margin: 40px 5px 0;
+}
+
+.social i:hover {
+    color: #ffffff;
+    background-color: var(--primary-color);
+    transform: translateY(-7px);
+}
+
+.social p {
+    font-size: 14px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.social p a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social p a:hover {
+    color: var(--primary-color);
+}
