@@ -308,3 +308,60 @@ Service Area
     bottom: 40%;
     opacity: 1;
 }
+
+/* ================
+Testimonial Area
+=================== */
+#testimonial {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.testimonialRow {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.testimonialCol {
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.testimonialCol:hover {
+    transform: translateY(-7px);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.user img {
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.userInfo h4 {
+    text-transform: capitalize;
+}
+
+.userInfo i {
+    margin-left: 10px;
+    color: #27c0ff;
+    font-size: 20px;
+}
+
+.userInfo small {
+    color: var(--primary-color);
+}
