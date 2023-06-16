@@ -1,14 +1,316 @@
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+@media (min-width: 1440px) {}
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) and (max-width:1440px) {
+    .bannerText h1 {
+        font-size: 110px;
+    }
+
+    .bannerText p {
+        font-size: 18px;
+    }
+
+    .bannerBtn {
+        margin-top: 40px;
+    }
+
+    .singleService {
+        margin-bottom: 20px;
+    }
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .bannerText h1 {
+        font-size: 100px;
+    }
+
+    .bannerText p {
+        font-size: 17px;
+    }
+
+    .bannerBtn {
+        margin-top: 40px;
+    }
+
+    .titleText h2 {
+        font-size: 35px;
+    }
+
+    .features h3 {
+        font-size: 22px;
+    }
+
+    .featureBox {
+        align-items: start;
+        margin-top: 40px;
+    }
+
+    .featureIcon i {
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+        line-height: 40px;
+        border-radius: 6px;
+    }
+
+    .singleService {
+        margin-bottom: 15px;
+    }
+
+    .testimonialCol {
+        flex-basis: 31%;
+    }
+
+    .user {
+        margin: 15px 0;
+    }
+
+    .testimonialCol p {
+        font-size: 15px;
+    }
+
+    img.footerImg {
+        max-width: 310px;
+        top: 28%;
+    }
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .bannerText h1 {
+        font-size: 80px;
+    }
+
+    .bannerText p {
+        font-size: 16px;
+    }
+
+    .bannerBtn {
+        margin-top: 30px;
+    }
+
+    .bannerBtn a {
+        width: 130px;
+        margin: 0 5px;
+    }
+
+    .titleText {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .titleText p {
+        font-size: 18px;
+    }
+
+    .titleText p::after {
+        width: 40px;
+        height: 30px;
+        top: -15px;
+    }
+
+    .titleText h2 {
+        font-size: 35px;
+    }
+
+    .features {
+        flex-basis: 100%;
+    }
+
+    .featureImg {
+        flex-basis: 100%;
+    }
+
+    .featureImg img {
+        width: 100%;
+    }
+
+    .singleService {
+        flex-basis: 48%;
+    }
+
+    .singleService {
+        margin-bottom: 12px;
+    }
+
+    .singleService:hover .serviceDesc {
+        bottom: 27%;
+    }
+
+    .testimonialCol {
+        flex-basis: 100%;
+        padding-bottom: 20px;
+    }
+
+    img.footerImg {
+        max-width: 270px;
+        top: 27%;
+    }
+
+    .footerLeft,
+    .footerRight {
+        flex-basis: 50%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .bannerText h1 {
+        font-size: 80px;
+    }
+
+    .bannerText p {
+        font-size: 16px;
+    }
+
+    .bannerBtn {
+        margin-top: 30px;
+    }
+
+    .bannerBtn a {
+        width: 130px;
+        margin: 0 5px;
+    }
+
+    .titleText {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .titleText p {
+        font-size: 18px;
+    }
+
+    .titleText p::after {
+        width: 40px;
+        height: 30px;
+        top: -15px;
+    }
+
+    .titleText h2 {
+        font-size: 35px;
+    }
+
+    .features {
+        flex-basis: 100%;
+    }
+
+    .featureImg {
+        flex-basis: 100%;
+    }
+
+    .featureImg img {
+        width: 100%;
+    }
+
+    .singleService {
+        flex-basis: 100%;
+    }
+
+    .singleService {
+        margin-bottom: 20px;
+    }
+
+    .singleService:hover .serviceDesc {
+        bottom: 40%;
+    }
+
+    .testimonialCol {
+        flex-basis: 100%;
+        padding-bottom: 20px;
+    }
+
+    img.footerImg {
+        max-width: 270px;
+        top: 27%;
+    }
+
+    .footerLeft,
+    .footerRight {
+        flex-basis: 100%;
+        padding: 0;
+    }
+}
+
+/* X-Small devices (Phone, 575 and down) */
+@media (max-width:575px) {
+    .bannerText h1 {
+        font-size: 70px;
+    }
+
+    .bannerText p {
+        font-size: 16px;
+    }
+
+    .bannerBtn {
+        margin-top: 30px;
+    }
+
+    .bannerBtn a {
+        width: 130px;
+        margin: 0 5px;
+    }
+
+    .titleText {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .titleText p {
+        font-size: 18px;
+    }
+
+    .titleText p::after {
+        width: 40px;
+        height: 30px;
+        top: -15px;
+    }
+
+    .titleText h2 {
+        font-size: 35px;
+    }
+
+    .features {
+        flex-basis: 100%;
+    }
+
+    .featureImg {
+        flex-basis: 100%;
+    }
+
+    .featureImg img {
+        width: 100%;
+    }
+
+    .singleService {
+        flex-basis: 100%;
+    }
+
+    .singleService {
+        margin-bottom: 20px;
+    }
+
+    .singleService:hover .serviceDesc {
+        bottom: 40%;
+    }
+
+    .testimonialCol {
+        flex-basis: 100%;
+        padding-bottom: 20px;
+    }
+
+    img.footerImg {
+        max-width: 200px;
+        top: 23%;
+    }
+
+    .footerLeft,
+    .footerRight {
+        flex-basis: 100%;
+        padding: 0;
+    }
+}

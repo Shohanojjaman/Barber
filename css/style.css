@@ -26,6 +26,10 @@ section#banner {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 img.logo {
@@ -37,7 +41,6 @@ img.logo {
 
 .bannerText {
     text-align: center;
-    padding-top: 140px;
     color: var(--white)
 }
 
@@ -177,9 +180,6 @@ Feature Area
     text-transform: capitalize;
 }
 
-/* ===========
-Feature Area
-============== */
 .featureBox {
     width: 80%;
     margin: auto;
@@ -305,7 +305,7 @@ Service Area
 }
 
 .singleService:hover .serviceDesc {
-    bottom: 40%;
+    bottom: 20%;
     opacity: 1;
 }
 
@@ -396,6 +396,13 @@ Footer Area
     font-size: 20px;
     color: var(--primary-color);
     margin: 10px;
+}
+
+.footerLeft h3,
+.footerRight h3 {
+    font-size: 23px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
 }
 
 .footerRight {
