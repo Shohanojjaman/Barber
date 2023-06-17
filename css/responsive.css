@@ -234,6 +234,16 @@
         flex-basis: 100%;
         padding: 0;
     }
+
+    .footerRight {
+        text-align: left;
+    }
+
+    .p {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+    }
 }
 
 /* X-Small devices (Phone, 575 and down) */
@@ -312,5 +322,15 @@
     .footerRight {
         flex-basis: 100%;
         padding: 0;
+    }
+
+    .footerRight {
+        text-align: left;
+    }
+
+    .p {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
     }
 }

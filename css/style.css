@@ -409,6 +409,12 @@ Footer Area
     text-align: right;
 }
 
+.p {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
 .footerRow h1 {
     margin: 10px 0;
 }
