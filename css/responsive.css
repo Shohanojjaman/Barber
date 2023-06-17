@@ -226,13 +226,14 @@
 
     img.footerImg {
         max-width: 270px;
-        top: 27%;
+        top: 23%;
     }
 
     .footerLeft,
     .footerRight {
         flex-basis: 100%;
         padding: 0;
+        margin-bottom: 30px;
     }
 
     .footerRight {
@@ -322,6 +323,7 @@
     .footerRight {
         flex-basis: 100%;
         padding: 0;
+        margin-bottom: 30px;
     }
 
     .footerRight {
