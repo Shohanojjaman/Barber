@@ -305,7 +305,7 @@ Service Area
 }
 
 .singleService:hover .serviceDesc {
-    bottom: 20%;
+    bottom: 40%;
     opacity: 1;
 }
 
